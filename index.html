@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Add Map</title>
+    <title>Mapas</title>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9FVb4x760O0T_wmSJBsatjJQPq2qRgK8&callback=initMap&libraries=&v=weekly"
       defer
@@ -11,8 +11,17 @@
     <script src="./js/index.js"></script>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3 class="titulo" id="adrian">Mapa de Prueba</h3>
+    <div class="datos">
+      <h4>Latitud: </h4>
+      <input type="number" id="lat">
+      <h4>Longitud: </h4>
+      <input type="number" id="long">
+      <button type="submit" onclick="crear()">Agregar Marcador</button>
+    </div>
     <!--The div element for the map -->
     <div id="map"></div>
+
+    
   </body>
 </html>

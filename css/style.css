@@ -1,7 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #454955;
+}
+
+.titulo {
+  background-color: darkorange;
+  padding: 20px;
+  color: #fff;
+  font-style: italic;
+}
+
+.datos {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.datos h4{
+  margin-right: 10px;
+  color: lightgray;
+}
+
+
+.datos input{
+  margin-right: 10px;
+}
+
 /* Set the size of the div element that contains the map */
 #map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  margin: 15px;
+}
